@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#2C3E2F">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="description"
+        content="R.U.V.A - Defining the new standard of luxury through the art of crochet. Explore our handcrafted collection of women's cardigans, men's shirts, baby essentials, and luxury home throws.">
+    <meta name="keywords"
+        content="luxury crochet, handmade, artisan, bespoke, custom crochet, luxury throws, handcrafted bags, crochet cardigans">
+    <title>R.U.V.A | Timeless Style. Handcrafted with Heart.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Montserrat:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="yarn-ball"></div>
+            <span class="logo-text">R<span class="dot">•</span>U<span class="dot">•</span>V<span
+                    class="dot">•</span>A</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="images/logo.png" alt="R.U.V.A Logo" class="logo-img">
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#collections" class="nav__link">Collections</a></li>
+                    <li class="nav__item"><a href="#bespoke" class="nav__link">Bespoke</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <button class="nav__close" id="nav-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+            <div class="nav__actions">
+                <a href="https://wa.me/your-number" class="btn btn--whatsapp" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    <span>Order Now</span>
+                </a>
+                <button class="nav__toggle" id="nav-toggle">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 12H21M3 6H21M3 18H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__bg">
+                <div class="hero__overlay"></div>
+            </div>
+            <div class="hero__content container">
+                <div class="hero__badge fade-float">
+                    <span>✦ Luxury Handcrafted Crochet ✦</span>
+                </div>
+                <h1 class="hero__title fade-float" style="animation-delay: 0.2s;">
+                    Timeless Style.<br>
+                    <span class="hero__title--accent">Handcrafted with Heart.</span>
+                </h1>
+                <p class="hero__subtitle fade-float" style="animation-delay: 0.4s;">
+                    Defining the new standard of luxury through the art of crochet.
+                </p>
+                <div class="hero__cta fade-float" style="animation-delay: 0.6s;">
+                    <a href="#collections" class="btn btn--primary">Explore Collections</a>
+                    <a href="#bespoke" class="btn btn--outline">Request Bespoke</a>
+                </div>
+                <div class="hero__scroll fade-float" style="animation-delay: 0.8s;">
+                    <div class="scroll-indicator">
+                        <span>Scroll to Discover</span>
+                        <div class="scroll-line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__decoration">
+                <div class="floating-yarn yarn-1"></div>
+                <div class="floating-yarn yarn-2"></div>
+                <div class="floating-yarn yarn-3"></div>
+            </div>
+        </section>
+
+        <!-- Featured Banner -->
+        <section class="featured-banner">
+            <div class="container">
+                <div class="banner__content">
+                    <div class="banner__stat">
+                        <span class="banner__number" data-count="500">0</span><span class="banner__plus">+</span>
+                        <span class="banner__label">Pieces Crafted</span>
+                    </div>
+                    <div class="banner__divider"><span class="dot">•</span></div>
+                    <div class="banner__stat">
+                        <span class="banner__number" data-count="100">0</span><span class="banner__percent">%</span>
+                        <span class="banner__label">Handmade</span>
+                    </div>
+                    <div class="banner__divider"><span class="dot">•</span></div>
+                    <div class="banner__stat">
+                        <span class="banner__number" data-count="50">0</span><span class="banner__plus">+</span>
+                        <span class="banner__label">Happy Clients</span>
+                    </div>
+                    <div class="banner__divider"><span class="dot">•</span></div>
+                    <div class="banner__stat">
+                        <span class="banner__text">∞</span>
+                        <span class="banner__label">Love in Every Stitch</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collections Section -->
+        <section class="collections" id="collections">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag fade-float">Our Artistry</span>
+                    <h2 class="section__title fade-float">The Collections</h2>
+                    <p class="section__subtitle fade-float">Five curated collections, each a testament to the art of
+                        handcrafted luxury.</p>
+                </div>
+
+                <!-- Collection Navigation -->
+                <div class="collection__nav fade-float">
+                    <button class="collection__tab active" data-collection="women">
+                        <span class="tab__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M12 2a4 4 0 014 4v2a4 4 0 01-8 0V6a4 4 0 014-4z" />
+                                <path d="M20 21v-2a4 4 0 00-3-3.87M4 21v-2a4 4 0 013-3.87" />
+                                <path d="M12 12c-4 0-6 2-6 4v5h12v-5c0-2-2-4-6-4z" />
+                            </svg>
+                        </span>
+                        <span class="tab__text">Women's</span>
+                    </button>
+                    <button class="collection__tab" data-collection="men">
+                        <span class="tab__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <rect x="4" y="2" width="16" height="20" rx="2" />
+                                <path d="M9 6h6M12 6v4M9 10l3-4 3 4" />
+                            </svg>
+                        </span>
+                        <span class="tab__text">Men's</span>
+                    </button>
+                    <button class="collection__tab" data-collection="babies">
+                        <span class="tab__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <circle cx="12" cy="8" r="5" />
+                                <path d="M5 21c0-4 3-6 7-6s7 2 7 6" />
+                                <path d="M12 3v-1M9 5L7 3M15 5l2-2" />
+                            </svg>
+                        </span>
+                        <span class="tab__text">Babies</span>
+                    </button>
+                    <button class="collection__tab" data-collection="home">
+                        <span class="tab__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
+                                <path d="M9 22V12h6v10" />
+                            </svg>
+                        </span>
+                        <span class="tab__text">Home</span>
+                    </button>
+                    <button class="collection__tab" data-collection="special">
+                        <span class="tab__icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.5">
+                                <polygon
+                                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                            </svg>
+                        </span>
+                        <span class="tab__text">Special</span>
+                    </button>
+                </div>
+
+                <!-- Collection Grid -->
+                <div class="collection__grid">
+                    <!-- Women's Collection -->
+                    <div class="collection__panel active" data-panel="women">
+                        <div class="collection__intro">
+                            <h3>Women's Collection</h3>
+                            <p>Elegance woven into every thread. From statement cardigans to artisan bags, each piece
+                                celebrates feminine grace.</p>
+                        </div>
+                        <div class="products__grid">
+                            <div class="product__card" data-product="1">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 11.13.22.jpeg"
+                                        alt="Pink Crochet Dress" class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge">Bestseller</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Rosé Elegance Dress</h4>
+                                    <p class="product__category">Fine Artisan Dress</p>
+                                    <span class="product__price">From $180</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="2">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 11.12.41.jpeg" alt="Pink Crochet Set"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge badge--new">New</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Blush Two-Piece Set</h4>
+                                    <p class="product__category">Luxury Summer Set</p>
+                                    <span class="product__price">From $220</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="3">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 11.123.22.jpeg"
+                                        alt="White Starfish Dress" class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Coral Star Dress</h4>
+                                    <p class="product__category">Statement Beach Dress</p>
+                                    <span class="product__price">From $195</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="4">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 15.25.55.jpeg" alt="Striped Pullover"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Autumn Stripe Pullover</h4>
+                                    <p class="product__category">Classic Cardigan</p>
+                                    <span class="product__price">From $165</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Men's Collection -->
+                    <div class="collection__panel" data-panel="men">
+                        <div class="collection__intro">
+                            <h3>Men's Collection</h3>
+                            <p>Sartorial excellence meets artisan craftsmanship. Refined pieces for the modern
+                                gentleman.</p>
+                        </div>
+                        <div class="products__grid">
+                            <div class="product__card" data-product="5">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 11.13.17.jpeg"
+                                        alt="Classic Crochet Shirt" class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge">Signature</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Riviera Classic Shirt</h4>
+                                    <p class="product__category">Classic Open-Weave Shirt</p>
+                                    <span class="product__price">From $175</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="6">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 15.25.54.jpeg" alt="Cream Pullover"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Ivory Knit Sweater</h4>
+                                    <p class="product__category">Luxury Pullover</p>
+                                    <span class="product__price">From $185</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Babies Collection -->
+                    <div class="collection__panel" data-panel="babies">
+                        <div class="collection__intro">
+                            <h3>Babies & Toddlers</h3>
+                            <p>Precious pieces for your little ones. Ultra-soft, hypoallergenic, and crafted with extra
+                                love.</p>
+                        </div>
+                        <div class="products__grid">
+                            <div class="product__card" data-product="7">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 11.13.23.jpeg" alt="Baby Blue Set"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge">Popular</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Sky Blue Layette Set</h4>
+                                    <p class="product__category">Complete Baby Set</p>
+                                    <span class="product__price">From $145</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="8">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-6 at 11.13.23.jpeg" alt="Peach Baby Set"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Peach Blossom Set</h4>
+                                    <p class="product__category">Hooded Jacket Set</p>
+                                    <span class="product__price">From $135</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="9">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 11.13.231.jpeg"
+                                        alt="Pink Toddler Outfit" class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge badge--new">New</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Fuchsia Play Set</h4>
+                                    <p class="product__category">Toddler Outfit</p>
+                                    <span class="product__price">From $95</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Home Collection -->
+                    <div class="collection__panel" data-panel="home">
+                        <div class="collection__intro">
+                            <h3>Home & Luxury Throws</h3>
+                            <p>Transform your space with artisanal warmth. Each throw and textile is a masterpiece of
+                                comfort.</p>
+                        </div>
+                        <div class="products__grid">
+                            <div class="product__card" data-product="10">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 11.13.21.jpeg"
+                                        alt="Brown Checkered Throw" class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge">Bestseller</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Espresso Check Afghan</h4>
+                                    <p class="product__category">Luxury Bed Throw</p>
+                                    <span class="product__price">From $275</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="11">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 11.13.20.jpeg"
+                                        alt="Black White Plaid Throw" class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Monochrome Plaid Throw</h4>
+                                    <p class="product__category">Statement Throw</p>
+                                    <span class="product__price">From $285</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="12">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 11.3.22.jpeg" alt="Grey Chunky Throw"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Storm Cloud Chunky</h4>
+                                    <p class="product__category">Arm-Knit Throw</p>
+                                    <span class="product__price">From $320</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="13">
+                                <div class="product__image-wrapper">
+                                    <img src="images/WhatsApp Image 2026-01-26 at 12.41.59.jpeg" alt="Rose Table Piece"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge badge--exclusive">Exclusive</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Blue Rose Centrepiece</h4>
+                                    <p class="product__category">Artisan Table Runner</p>
+                                    <span class="product__price">From $150</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Special Collection -->
+                    <div class="collection__panel" data-panel="special">
+                        <div class="collection__intro">
+                            <h3>Special & Statement Pieces</h3>
+                            <p>One-of-a-kind creations and exclusive gift sets. For those who seek the extraordinary.
+                            </p>
+                        </div>
+                        <div class="special__showcase">
+                            <div class="special__card glass-panel">
+                                <div class="special__icon">
+                                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="1.5">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                                    </svg>
+                                </div>
+                                <h4>Custom Creations</h4>
+                                <p>Your vision, our craft. Collaborate with our artisans to create a piece that's
+                                    uniquely yours.</p>
+                                <span class="special__price">Inquiry-Based Pricing</span>
+                                <a href="#bespoke" class="btn btn--small">Start Your Journey</a>
+                            </div>
+                            <div class="special__card glass-panel">
+                                <div class="special__icon">
+                                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="1.5">
+                                        <path
+                                            d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+                                    </svg>
+                                </div>
+                                <h4>Exclusive Gift Sets</h4>
+                                <p>Curated collections for special occasions. Wrapped in luxury, delivered with love.
+                                </p>
+                                <span class="special__price">From $300</span>
+                                <a href="#contact" class="btn btn--small">Inquire Now</a>
+                            </div>
+                            <div class="special__card glass-panel">
+                                <div class="special__icon">
+                                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="1.5">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <path d="M12 6v6l4 2" />
+                                    </svg>
+                                </div>
+                                <h4>Limited Editions</h4>
+                                <p>Seasonal releases and artist collaborations. When they're gone, they're gone forever.
+                                </p>
+                                <span class="special__price">Join Waitlist</span>
+                                <a href="#contact" class="btn btn--small">Get Notified</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bespoke Section -->
+        <section class="bespoke" id="bespoke">
+            <div class="bespoke__bg"></div>
+            <div class="container">
+                <div class="bespoke__content">
+                    <div class="bespoke__text">
+                        <span class="section__tag fade-float">The Art of Custom</span>
+                        <h2 class="section__title fade-float">Bespoke Service</h2>
+                        <p class="bespoke__description fade-float">
+                            Every R.U.V.A piece begins with a conversation. Our bespoke service transforms your dreams
+                            into wearable art.
+                            From selecting the perfect yarn to the final stitch, we craft pieces that tell your story.
+                        </p>
+                        <div class="bespoke__process fade-float">
+                            <div class="process__step">
+                                <span class="step__number">01</span>
+                                <div class="step__content">
+                                    <h4>Consultation</h4>
+                                    <p>Share your vision with our artisans</p>
+                                </div>
+                            </div>
+                            <div class="process__step">
+                                <span class="step__number">02</span>
+                                <div class="step__content">
+                                    <h4>Design</h4>
+                                    <p>Collaborate on patterns and materials</p>
+                                </div>
+                            </div>
+                            <div class="process__step">
+                                <span class="step__number">03</span>
+                                <div class="step__content">
+                                    <h4>Creation</h4>
+                                    <p>Watch your piece come to life</p>
+                                </div>
+                            </div>
+                            <div class="process__step">
+                                <span class="step__number">04</span>
+                                <div class="step__content">
+                                    <h4>Delivery</h4>
+                                    <p>Receive your luxury creation</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bespoke__cta fade-float">
+                            <a href="https://wa.me/your-number?text=Hello! I'm interested in a bespoke creation."
+                                class="btn btn--primary btn--large" target="_blank">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                                </svg>
+                                Book a Style Call
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bespoke__visual fade-float">
+                        <div class="bespoke__image-stack">
+                            <img src="images/WhatsApp Image 2026-01-26 at 11.13.17.jpeg" alt="Bespoke Craft"
+                                class="stack__image stack__image--1">
+                            <img src="images/WhatsApp Image 2026-01-26 at 11.13.22.jpeg" alt="Bespoke Detail"
+                                class="stack__image stack__image--2">
+                            <div class="stack__decoration glass-panel">
+                                <span class="decoration__text">Made with Love</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__content">
+                    <div class="about__visual fade-float">
+                        <div class="about__image-container">
+                            <img src="images/logo.png" alt="R.U.V.A Logo" class="about__logo">
+                            <div class="about__decoration-ring"></div>
+                        </div>
+                    </div>
+                    <div class="about__text">
+                        <span class="section__tag fade-float">Our Story</span>
+                        <h2 class="section__title fade-float">The Art of R.U.V.A</h2>
+                        <p class="about__description fade-float">
+                            Born from a passion for the timeless art of crochet, R.U.V.A represents the perfect fusion
+                            of
+                            traditional craftsmanship and contemporary design. Each piece is a labor of love,
+                            handcrafted
+                            with premium materials and meticulous attention to detail.
+                        </p>
+                        <p class="about__description fade-float">
+                            We believe luxury should be felt in every stitch. Our artisans bring decades of expertise to
+                            create pieces that are not just garments—they are heirlooms meant to be treasured for
+                            generations.
+                        </p>
+                        <div class="about__values fade-float">
+                            <div class="value__item">
+                                <span class="value__icon">✦</span>
+                                <span class="value__text">Artisan Crafted</span>
+                            </div>
+                            <div class="value__item">
+                                <span class="value__icon">✦</span>
+                                <span class="value__text">Premium Materials</span>
+                            </div>
+                            <div class="value__item">
+                                <span class="value__icon">✦</span>
+                                <span class="value__text">Timeless Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag fade-float">Get In Touch</span>
+                    <h2 class="section__title fade-float">Connect With Us</h2>
+                    <p class="section__subtitle fade-float">Ready to experience luxury? Let's start a conversation.</p>
+                </div>
+                <div class="contact__grid">
+                    <div class="contact__card glass-panel fade-float">
+                        <a href="https://wa.me/your-number?text=Hello! I'm interested in R.U.V.A products."
+                            class="contact__link" target="_blank">
+                            <div class="contact__icon contact__icon--whatsapp">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                                </svg>
+                            </div>
+                            <h4>Order via WhatsApp</h4>
+                            <p>Quick inquiries and orders</p>
+                        </a>
+                    </div>
+                    <div class="contact__card glass-panel fade-float">
+                        <a href="https://instagram.com/R.U.V.A__" class="contact__link" target="_blank">
+                            <div class="contact__icon contact__icon--instagram">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                </svg>
+                            </div>
+                            <h4>@R.U.V.A__</h4>
+                            <p>Follow our journey</p>
+                        </a>
+                    </div>
+                    <div class="contact__card glass-panel fade-float">
+                        <a href="https://tiktok.com/@R.U.V.A" class="contact__link" target="_blank">
+                            <div class="contact__icon contact__icon--tiktok">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z" />
+                                </svg>
+                            </div>
+                            <h4>@R.U.V.A</h4>
+                            <p>Watch our creations</p>
+                        </a>
+                    </div>
+                    <div class="contact__card glass-panel fade-float">
+                        <a href="tel:+1234567890" class="contact__link">
+                            <div class="contact__icon contact__icon--phone">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+                                </svg>
+                            </div>
+                            <h4>Book a Style Call</h4>
+                            <p>Personal consultation</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <img src="images/logo.png" alt="R.U.V.A Logo" class="footer__logo">
+                    <p class="footer__tagline">Timeless Style. Handcrafted with Heart.</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__column">
+                        <h5>Collections</h5>
+                        <ul>
+                            <li><a href="#collections">Women's</a></li>
+                            <li><a href="#collections">Men's</a></li>
+                            <li><a href="#collections">Babies</a></li>
+                            <li><a href="#collections">Home</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h5>Services</h5>
+                        <ul>
+                            <li><a href="#bespoke">Bespoke</a></li>
+                            <li><a href="#contact">Consultation</a></li>
+                            <li><a href="#collections">Gift Sets</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h5>Connect</h5>
+                        <ul>
+                            <li><a href="https://instagram.com/R.U.V.A__" target="_blank">Instagram</a></li>
+                            <li><a href="https://tiktok.com/@R.U.V.A" target="_blank">TikTok</a></li>
+                            <li><a href="https://wa.me/your-number" target="_blank">WhatsApp</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 R.U.V.A. All rights reserved. Designed by Godknows Mugaduyi</p>
+                <div class="footer__social">
+                    <a href="https://instagram.com/R.U.V.A__" target="_blank" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg>
+                    </a>
+                    <a href="https://tiktok.com/@R.U.V.A" target="_blank" aria-label="TikTok">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-5.2 1.74 2.89 2.89 0 012.31-4.64 2.93 2.93 0 01.88.13V9.4a6.84 6.84 0 00-1-.05A6.33 6.33 0 005 20.1a6.34 6.34 0 0010.86-4.43v-7a8.16 8.16 0 004.77 1.52v-3.4a4.85 4.85 0 01-1-.1z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Modal -->
+    <div class="modal" id="product-modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__content glass-panel">
+            <button class="modal__close" id="modal-close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+            </button>
+            <div class="modal__body">
+                <div class="modal__image-container">
+                    <img src="" alt="" class="modal__image" id="modal-image">
+                </div>
+                <div class="modal__details">
+                    <span class="modal__category" id="modal-category"></span>
+                    <h3 class="modal__title" id="modal-title"></h3>
+                    <p class="modal__description" id="modal-description">
+                        Each piece is meticulously handcrafted using premium, ethically-sourced yarns.
+                        Our artisans dedicate hours of careful attention to ensure every stitch meets our exacting
+                        standards of excellence.
+                    </p>
+                    <div class="modal__features">
+                        <div class="feature">
+                            <span class="feature__icon">✦</span>
+                            <span class="feature__text">100% Handmade</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature__icon">✦</span>
+                            <span class="feature__text">Premium Materials</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature__icon">✦</span>
+                            <span class="feature__text">Custom Sizing Available</span>
+                        </div>
+                    </div>
+                    <div class="modal__price" id="modal-price"></div>
+                    <div class="modal__actions">
+                        <a href="https://wa.me/your-number?text=Hello! I'm interested in the "
+                            class="btn btn--primary btn--large" id="modal-order" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                            </svg>
+                            Order via WhatsApp
+                        </a>
+                        <button class="btn btn--outline">Bespoke Request</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/your-number?text=Hello! I'm interested in R.U.V.A products." class="floating-whatsapp"
+        target="_blank" aria-label="Contact on WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+        <span class="floating-whatsapp__text">Chat with us</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
