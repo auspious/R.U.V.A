@@ -2997,3 +2997,62 @@ h4 {
 #btn-tailor-make svg {
     margin-right: 8px;
 }
+
+/* ============================================
+   MOBILE RESPONSIVENESS FIXES
+   ============================================ */
+@media (max-width: 768px) {
+
+    /* Tailor Modal */
+    #tailor-modal .modal__content {
+        width: 90%;
+        margin: 20px auto;
+        padding: 25px;
+        max-height: 85vh;
+        overflow-y: auto;
+    }
+
+    /* Bespoke Section Layout */
+    .bespoke__container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bespoke__content,
+    .bespoke__visual {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .bespoke__cta {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .bespoke__cta .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* Product Grid - Ensure 2 columns on mobile for better browsing */
+    .products__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Very small screens: 1 column product grid often better, or keep 2 small ones */
+    .products__grid {
+        grid-template-columns: 1fr;
+        /* 1 column for very small screens */
+    }
+
+    .modal__header h3 {
+        font-size: 1.5rem;
+    }
+}
