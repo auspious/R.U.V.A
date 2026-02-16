@@ -56,7 +56,7 @@
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
-                <img src="images/logo.png" alt="R.U.V.A Logo" class="logo-img">
+                <img src="images/logo.jpg" alt="R.U.V.A Logo" class="logo-img">
             </a>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -74,7 +74,16 @@
                 </button>
             </div>
             <div class="nav__actions">
-                <a href="https://wa.me/your-number" class="btn btn--whatsapp" target="_blank">
+                <!-- Shopping Cart Button -->
+                <button class="nav__cart" id="cart-toggle" aria-label="Shopping Cart">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <path d="M16 10a4 4 0 01-8 0" />
+                    </svg>
+                    <span class="cart__badge" id="cart-badge">0</span>
+                </button>
+                <a href="https://wa.me/263782080563" class="btn btn--whatsapp" target="_blank">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                         <path
                             d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
@@ -287,6 +296,81 @@
                                     <span class="product__price">From $165</span>
                                 </div>
                             </div>
+                            <div class="product__card" data-product="14">
+                                <div class="product__image-wrapper">
+                                    <img src="images/IMG-20260213-WA0032.jpg" alt="Orange Crochet Crop Top"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge badge--new">New</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Amber Glow Crop Top</h4>
+                                    <p class="product__category">Summer Crop Top</p>
+                                    <span class="product__price">From $95</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="15">
+                                <div class="product__image-wrapper">
+                                    <img src="images/IMG-20260213-WA0033.jpg" alt="White Crochet Bikini Set"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge badge--new">New</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Poolside Lace Bikini</h4>
+                                    <p class="product__category">Luxury Swimwear Set</p>
+                                    <span class="product__price">From $160</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="16">
+                                <div class="product__image-wrapper">
+                                    <img src="images/IMG-20260213-WA0034.jpg" alt="Burgundy Crochet Two-Piece"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge badge--new">New</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Crimson Knit Co-ord</h4>
+                                    <p class="product__category">Two-Piece Set</p>
+                                    <span class="product__price">From $240</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="18">
+                                <div class="product__image-wrapper">
+                                    <img src="images/IMG-20260213-WA0036.jpg" alt="Cream Fringe Maxi Dress"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge badge--new">New</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Sahara Fringe Maxi</h4>
+                                    <p class="product__category">Statement Maxi Dress</p>
+                                    <span class="product__price">From $350</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="19">
+                                <div class="product__image-wrapper">
+                                    <img src="images/IMG-20260213-WA0037.jpg" alt="Ivory Net Maxi Dress"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge badge--new">New</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Ivory Net Maxi Dress</h4>
+                                    <p class="product__category">Couture Maxi Dress</p>
+                                    <span class="product__price">From $320</span>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -325,6 +409,36 @@
                                     <h4 class="product__name">Ivory Knit Sweater</h4>
                                     <p class="product__category">Luxury Pullover</p>
                                     <span class="product__price">From $185</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="17">
+                                <div class="product__image-wrapper">
+                                    <img src="images/IMG-20260213-WA0035.jpg" alt="White Open-Weave Shirt"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge badge--new">New</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Safari Open-Weave Shirt</h4>
+                                    <p class="product__category">Men's Classic Shirt</p>
+                                    <span class="product__price">From $190</span>
+                                </div>
+                            </div>
+                            <div class="product__card" data-product="20">
+                                <div class="product__image-wrapper">
+                                    <img src="images/IMG-20260214-WA0012.jpg" alt="Striped Heritage Sweater"
+                                        class="product__image">
+                                    <div class="product__overlay">
+                                        <button class="product__quick-view">View Details</button>
+                                    </div>
+                                    <span class="product__badge badge--new">New</span>
+                                </div>
+                                <div class="product__info">
+                                    <h4 class="product__name">Heritage Stripe Sweater</h4>
+                                    <p class="product__category">Cozy Pullover</p>
+                                    <span class="product__price">From $175</span>
                                 </div>
                             </div>
                         </div>
@@ -554,7 +668,7 @@
                             </div>
                         </div>
                         <div class="bespoke__cta fade-float">
-                            <a href="https://wa.me/your-number?text=Hello! I'm interested in a bespoke creation."
+                            <a href="https://wa.me/263782080563?text=Hello!%20I'm%20interested%20in%20a%20*BESPOKE%20CREATION*%20from%20R.U.V.A.%0A%0A%F0%9F%8E%A8%20I%20would%20like%20to%20discuss%20a%20custom%20piece.%0A%0APlease%20let%20me%20know%20your%20availability%20for%20a%20style%20consultation.%20Thank%20you!"
                                 class="btn btn--primary btn--large" target="_blank">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
                                     <path
@@ -562,6 +676,15 @@
                                 </svg>
                                 Book a Style Call
                             </a>
+                            <button class="btn btn--outline btn--large" id="btn-tailor-make">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                                    <line x1="16" y1="8" x2="2" y2="22"></line>
+                                    <line x1="17.5" y1="15" x2="9" y2="15"></line>
+                                </svg>
+                                Tailor Make Something
+                            </button>
                         </div>
                     </div>
                     <div class="bespoke__visual fade-float">
@@ -585,7 +708,7 @@
                 <div class="about__content">
                     <div class="about__visual fade-float">
                         <div class="about__image-container">
-                            <img src="images/logo.png" alt="R.U.V.A Logo" class="about__logo">
+                            <img src="images/logo.jpg" alt="R.U.V.A Logo" class="about__logo">
                             <div class="about__decoration-ring"></div>
                         </div>
                     </div>
@@ -633,7 +756,7 @@
                 </div>
                 <div class="contact__grid">
                     <div class="contact__card glass-panel fade-float">
-                        <a href="https://wa.me/your-number?text=Hello! I'm interested in R.U.V.A products."
+                        <a href="https://wa.me/263782080563?text=Hello! I'm interested in R.U.V.A products."
                             class="contact__link" target="_blank">
                             <div class="contact__icon contact__icon--whatsapp">
                                 <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
@@ -685,6 +808,117 @@
                 </div>
             </div>
         </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag fade-float">Client Love</span>
+                    <h2 class="section__title fade-float">What Our Clients Say</h2>
+                    <p class="section__subtitle fade-float">Hear from those who've experienced the R.U.V.A difference.
+                    </p>
+                </div>
+                <div class="testimonials__grid">
+                    <div class="testimonial__card glass-panel fade-float">
+                        <div class="testimonial__stars">★★★★★</div>
+                        <p class="testimonial__text">"Absolutely stunning craftsmanship! My throw is the centerpiece of
+                            my living room. Every guest asks where I got it."</p>
+                        <div class="testimonial__author">
+                            <span class="author__name">Sarah M.</span>
+                            <span class="author__location">Harare, Zimbabwe</span>
+                        </div>
+                    </div>
+                    <div class="testimonial__card glass-panel fade-float">
+                        <div class="testimonial__stars">★★★★★</div>
+                        <p class="testimonial__text">"The baby set I ordered for my nephew was even more beautiful in
+                            person. The attention to detail is incredible."</p>
+                        <div class="testimonial__author">
+                            <span class="author__name">Tendai K.</span>
+                            <span class="author__location">Bulawayo, Zimbabwe</span>
+                        </div>
+                    </div>
+                    <div class="testimonial__card glass-panel fade-float">
+                        <div class="testimonial__stars">★★★★★</div>
+                        <p class="testimonial__text">"I commissioned a custom piece and the process was seamless. They
+                            brought my vision to life perfectly!"</p>
+                        <div class="testimonial__author">
+                            <span class="author__name">Grace N.</span>
+                            <span class="author__location">Victoria Falls, Zimbabwe</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Instagram Feed Section -->
+        <section class="instagram-feed">
+            <div class="container">
+                <div class="section__header">
+                    <span class="section__tag fade-float">Follow Our Journey</span>
+                    <h2 class="section__title fade-float">@R.U.V.A__</h2>
+                    <p class="section__subtitle fade-float">Join our community and get inspired by our latest creations.
+                    </p>
+                </div>
+                <div class="instagram__grid fade-float">
+                    <a href="https://instagram.com/R.U.V.A__" target="_blank" class="instagram__item">
+                        <img src="images/IMG-20260213-WA0032.jpg" alt="R.U.V.A Instagram">
+                        <div class="instagram__overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/R.U.V.A__" target="_blank" class="instagram__item">
+                        <img src="images/IMG-20260213-WA0036.jpg" alt="R.U.V.A Instagram">
+                        <div class="instagram__overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/R.U.V.A__" target="_blank" class="instagram__item">
+                        <img src="images/IMG-20260213-WA0034.jpg" alt="R.U.V.A Instagram">
+                        <div class="instagram__overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/R.U.V.A__" target="_blank" class="instagram__item">
+                        <img src="images/IMG-20260214-WA0012.jpg" alt="R.U.V.A Instagram">
+                        <div class="instagram__overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/R.U.V.A__" target="_blank" class="instagram__item">
+                        <img src="images/IMG-20260213-WA0037.jpg" alt="R.U.V.A Instagram">
+                        <div class="instagram__overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069z" />
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://instagram.com/R.U.V.A__" target="_blank" class="instagram__item instagram__cta">
+                        <div class="instagram__follow">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                            <span>Follow Us</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -692,7 +926,7 @@
         <div class="container">
             <div class="footer__content">
                 <div class="footer__brand">
-                    <img src="images/logo.png" alt="R.U.V.A Logo" class="footer__logo">
+                    <img src="images/logo.jpg" alt="R.U.V.A Logo" class="footer__logo">
                     <p class="footer__tagline">Timeless Style. Handcrafted with Heart.</p>
                 </div>
                 <div class="footer__links">
@@ -718,7 +952,7 @@
                         <ul>
                             <li><a href="https://instagram.com/R.U.V.A__" target="_blank">Instagram</a></li>
                             <li><a href="https://tiktok.com/@R.U.V.A" target="_blank">TikTok</a></li>
-                            <li><a href="https://wa.me/your-number" target="_blank">WhatsApp</a></li>
+                            <li><a href="https://wa.me/263782080563" target="_blank">WhatsApp</a></li>
                         </ul>
                     </div>
                 </div>
@@ -757,6 +991,7 @@
                     <img src="" alt="" class="modal__image" id="modal-image">
                 </div>
                 <div class="modal__details">
+                    <div id="modal-availability" class="modal__availability"></div>
                     <span class="modal__category" id="modal-category"></span>
                     <h3 class="modal__title" id="modal-title"></h3>
                     <p class="modal__description" id="modal-description">
@@ -764,6 +999,10 @@
                         Our artisans dedicate hours of careful attention to ensure every stitch meets our exacting
                         standards of excellence.
                     </p>
+                    <div class="size-selector">
+                        <span class="size-label">Select Size:</span>
+                        <div class="size-options" id="modal-sizes"></div>
+                    </div>
                     <div class="modal__features">
                         <div class="feature">
                             <span class="feature__icon">✦</span>
@@ -779,16 +1018,30 @@
                         </div>
                     </div>
                     <div class="modal__price" id="modal-price"></div>
+                    <span id="modal-delivery" class="delivery-estimate"></span>
+                    <div class="modal__materials">
+                        <span class="materials__label">Materials:</span>
+                        <span class="materials__value" id="modal-materials">Premium Yarn</span>
+                    </div>
                     <div class="modal__actions">
-                        <a href="https://wa.me/your-number?text=Hello! I'm interested in the "
-                            class="btn btn--primary btn--large" id="modal-order" target="_blank">
+                        <button class="btn btn--primary btn--large" id="modal-add-cart">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+                                <line x1="3" y1="6" x2="21" y2="6" />
+                                <path d="M16 10a4 4 0 01-8 0" />
+                            </svg>
+                            Add to Cart
+                        </button>
+                        <a href="https://wa.me/263782080563?text=Hello! I'm interested in the "
+                            class="btn btn--whatsapp" id="modal-order" target="_blank">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                                 <path
                                     d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
                             </svg>
-                            Order via WhatsApp
+                            Order Now
                         </a>
-                        <button class="btn btn--outline">Bespoke Request</button>
+                        <a href="#bespoke" class="btn btn--outline" id="modal-bespoke">Bespoke Request</a>
                     </div>
                 </div>
             </div>
@@ -796,8 +1049,8 @@
     </div>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/your-number?text=Hello! I'm interested in R.U.V.A products." class="floating-whatsapp"
-        target="_blank" aria-label="Contact on WhatsApp">
+    <a href="https://wa.me/263782080563?text=Hello!%20%F0%9F%91%8B%20I'm%20browsing%20the%20R.U.V.A%20website%20and%20I'm%20interested%20in%20your%20luxury%20crochet%20products.%0A%0ACould%20you%20please%20help%20me%20with%20more%20information%3F%20Thank%20you!"
+        class="floating-whatsapp" target="_blank" aria-label="Contact on WhatsApp">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
             <path
                 d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
@@ -811,7 +1064,7 @@
           "@type": "Organization",
           "name": "R.U.V.A",
           "url": "https://ruva-luxury.com/",
-          "logo": "https://ruva-luxury.com/images/logo.png",
+          "logo": "https://ruva-luxury.com/images/logo.jpg",
           "description": "Defining the new standard of luxury through the art of handcrafted crochet. Timeless style, handcrafted with heart.",
           "sameAs": [
             "https://instagram.com/R.U.V.A__",
@@ -824,6 +1077,107 @@
           }
         }
     </script>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-sidebar__overlay" id="cart-overlay"></div>
+        <div class="cart-sidebar__panel glass-panel">
+            <div class="cart-sidebar__header">
+                <h3>Your Cart</h3>
+                <button class="cart-sidebar__close" id="cart-close">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="cart-sidebar__body" id="cart-items">
+                <div class="cart-empty" id="cart-empty">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <path d="M16 10a4 4 0 01-8 0" />
+                    </svg>
+                    <p>Your cart is empty</p>
+                    <a href="#collections" class="btn btn--primary btn--small" id="cart-browse">Browse Collections</a>
+                </div>
+                <!-- Cart items will be dynamically inserted here -->
+            </div>
+            <div class="cart-sidebar__footer" id="cart-footer" style="display: none;">
+                <div class="cart-subtotal">
+                    <span>Subtotal:</span>
+                    <span class="cart-subtotal__amount" id="cart-subtotal">$0.00</span>
+                </div>
+                <p class="cart-note">Shipping calculated at checkout. Custom sizes available on request.</p>
+                <a href="https://wa.me/263782080563?text=Hello!%20I'd%20like%20to%20place%20an%20order%20from%20R.U.V.A.%20Please%20help%20me%20checkout."
+                    class="btn btn--primary btn--large cart-checkout" id="cart-checkout" target="_blank">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    Checkout via WhatsApp
+                </a>
+                <button class="btn btn--outline cart-clear" id="cart-clear">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast__content">
+            <svg class="toast__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+            <span class="toast__message" id="toast-message">Item added to cart</span>
+        </div>
+    </div>
+
+    <!-- Tailor Make Modal -->
+    <div class="modal" id="tailor-modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__content glass-panel">
+            <button class="modal__close" id="tailor-close">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
+            </button>
+            <div class="modal__header">
+                <h3>Tailor Make Your Dream</h3>
+                <p>Describe your vision, and our artisans will bring it to life.</p>
+            </div>
+            <div class="modal__body">
+                <form id="tailor-form" class="tailor-form">
+                    <div class="form-group">
+                        <label for="tailor-desc">Describe what you need:</label>
+                        <textarea id="tailor-desc" rows="4"
+                            placeholder="e.g., A floor-length emerald green dress with long sleeves and open back..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Do you have a reference picture?</label>
+                        <div class="file-upload-hint">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                <polyline points="21 15 16 10 5 21"></polyline>
+                            </svg>
+                            <p>You can share your reference photo directly in the WhatsApp chat after clicking "Start
+                                Consultation".</p>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--large">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347" />
+                        </svg>
+                        Start Consultation
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
